@@ -24,6 +24,11 @@ body {
     box-shadow: none;
 }
 
+.navbar .primary-btn, .navbar .secondary-btn {
+    padding: 8px 20px;
+    margin: 0 4px;
+}
+
 a {
     color: #111111;
 }
@@ -152,11 +157,25 @@ blockquote {
     background-color: #ffffff;
     border-radius: 2px;
     margin: 15px 0;
+    -moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.pricing-container:hover {
+    -moz-transform: translate(0, -15px);
+	-webkit-transform: translate(0, -15px);
+	transform: translate(0, -15px)
 }
 
 .pricing-header {
     border-bottom: 1px solid #f5f5f5;
     padding: 30px;
+}
+
+.pricing-header p {
+    font-size: 14px;
+    color: #7f7f7f;
 }
 
 .pricing-body {
@@ -174,14 +193,22 @@ blockquote {
     margin-bottom: 10px;
 }
 
+.pricing-body i {
+    margin-right: 5px;
+}
+
 .pricing-footer {
     text-align: center;
     padding: 30px;
 }
 
+.pricing-footer h6 {
+    font-size: 20px;
+}
+
 .pricing-footer span {
     font-size: 12px;
-    color: #4b4b4b;
+    color: #7f7f7f;
 }
 
 #contact {
@@ -221,13 +248,13 @@ footer {
 footer h6 {
     font-size: 18px;
     font-weight: 700;
+    -moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
 footer i {
     font-size: 14px;
-    -moz-transition: all 0.8s;
-	-webkit-transition: all 0.8s;
-    transition: all 0.8s;
 }
 
 footer a {
@@ -238,10 +265,10 @@ footer a:hover {
     color: #4b4b4b;
 }
 
-footer > a > h6 > i:hover {
-    -moz-transform: translate(0, -10px);
-	-webkit-transform: translate(0, -10px);
-	transform: translate(0, -10px)
+footer a h6:hover {
+    -moz-transform: translate(0, -5px);
+	-webkit-transform: translate(0, -5px);
+	transform: translate(0, -5px)
 }
 
 #copyright {
@@ -267,11 +294,29 @@ footer > a > h6 > i:hover {
         font-size: 1.1rem;
         font-weight: 200;
     }
+    .footer-btn {
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    #copyright .list-inline {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #copyright i {
+        font-size: 28px;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { 
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .pricing-header, .pricing-body, .pricing-footer {
+        padding: 20px;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
