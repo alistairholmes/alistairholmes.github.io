@@ -1,6 +1,8 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
+    letter-spacing: .5px;
+    padding-top: 100px;
 }
 
 .bg-light { background-color: #f5f5f5 !important; }
@@ -9,25 +11,6 @@ body {
 .text-light { color: #f9f9f9 !important; }
 .text-dark { color: #111111 !important; }
 
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-    min-height: 100px;
-}
-
-.nav-link {
-    color: #111111;
-}
-
-.navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.navbar .primary-btn, .navbar .secondary-btn {
-    padding: 8px 20px;
-    margin: 0 4px;
-}
 
 a {
     color: #111111;
@@ -78,6 +61,14 @@ section {
     padding: 80px 0;
 }
 
+section h3 {
+    font-weight: 700;
+}
+
+section p {
+    color: #7f7f7f;
+}
+
 .full-width {
     width: 100%;
 }
@@ -89,12 +80,98 @@ section {
     border-right: 1px solid rgba(0,0,0,.1);
 }
 
+#hero {
+    padding: 0px;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-details {
+    position: absolute;
+    color: #ffffff;
+}
+
+.member-container {
+    position: relative;
+}
+
+.member-container img {
+    border-radius: 2px;
+}
+
+.member-information {
+    position: absolute;
+    color: #ffffff;
+    bottom: 10px;
+    left: 20px;
+    -moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.member-information:hover {
+    -moz-transform: translate(0, -15px);
+	-webkit-transform: translate(0, -15px);
+	transform: translate(0, -15px);
+}
+
+.member-information h4 {
+    font-size: 18px;
+}
+
+.member-information p {
+    color: rgba(256, 256, 256, .7)
+}
+
+.member-information i {
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 10px;
+}
+ 
+/*////////////////////////////
+  Navbar
+///////////////////////////*/
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #111111;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .primary-btn, .navbar .secondary-btn {
+    padding: 10px 20px;
+    margin: 0 4px;
+    font-size: 12px;
+}
+
+.logo {
+    min-width: 200px;
+    max-width: 200px;
+}
+
 /* ////////////////////////////////
    Testimonial 
 ////////////////////////////////*/
 
 blockquote {
-    background-color: #111111;
+    background-color: transparent;
+    border: 1px solid #111111;
     border-radius: 2px;
 }
 
@@ -165,7 +242,7 @@ blockquote {
 .pricing-container:hover {
     -moz-transform: translate(0, -15px);
 	-webkit-transform: translate(0, -15px);
-	transform: translate(0, -15px)
+	transform: translate(0, -15px);
 }
 
 .pricing-header {
@@ -298,6 +375,11 @@ footer a h6:hover {
         margin-bottom: 30px;
         border-bottom: 1px solid rgba(0,0,0,.1);
     }
+
+    #copyright .logo {
+        margin-top: 20px;
+    }
+
     #copyright .list-inline {
         text-align: center;
         margin-top: 20px;
