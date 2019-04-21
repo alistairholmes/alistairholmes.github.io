@@ -1,16 +1,28 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Software Company Template v1.0.0 (https://themesbootstrap.com.mx/templates/software-company-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/mobile-app/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 12px;
-    letter-spacing: .5px;
+    color: #111111;
     padding-top: 100px;
 }
 
 .bg-light { background-color: #f5f5f5 !important; }
-.bg-dark { background-color: #111111 !important; }
 
-.text-light { color: #f9f9f9 !important; }
-.text-dark { color: #111111 !important; }
-
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.6;
+}
 
 a {
     color: #111111;
@@ -57,8 +69,12 @@ a:hover {
     text-align: right;
 }
 
+img {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,.08);
+}
+
 section {
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 section h3 {
@@ -67,68 +83,29 @@ section h3 {
 
 section p {
     color: #7f7f7f;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
 }
 
 .full-width {
     width: 100%;
 }
-
-.topmargin-sm { margin-top: 30px }
+.topmargin-xs { margin-top: 15px; }
+.topmargin-sm { margin-top: 30px; }
 .topmargin-lg { margin-top: 60px; }
 
 .divider-right {
     border-right: 1px solid rgba(0,0,0,.1);
 }
 
-#hero {
-    padding: 0px;
-}
+/*////////////////////////////
+  Hero
+///////////////////////////*/
 
-.hero-container {
-    position: relative;
-}
-
-.hero-details {
-    position: absolute;
-    color: #ffffff;
-}
-
-.member-container {
-    position: relative;
-}
-
-.member-container img {
-    border-radius: 2px;
-}
-
-.member-information {
-    position: absolute;
-    color: #ffffff;
-    bottom: 10px;
-    left: 20px;
-    -moz-transition: all 0.8s;
-	-webkit-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.member-information:hover {
-    -moz-transform: translate(0, -15px);
-	-webkit-transform: translate(0, -15px);
-	transform: translate(0, -15px);
-}
-
-.member-information h4 {
+#hero p {
     font-size: 18px;
-}
-
-.member-information p {
-    color: rgba(256, 256, 256, .7)
-}
-
-.member-information i {
-    color: #ffffff;
-    font-size: 22px;
-    margin-right: 10px;
+    line-height: 2;
 }
  
 /*////////////////////////////
@@ -163,72 +140,56 @@ section p {
 .logo {
     min-width: 200px;
     max-width: 200px;
+    box-shadow: none;
 }
 
-/* ////////////////////////////////
-   Testimonial 
-////////////////////////////////*/
+/*////////////////////////////
+  Members
+///////////////////////////*/
 
-blockquote {
-    background-color: transparent;
-    border: 1px solid #111111;
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-container img {
     border-radius: 2px;
 }
 
-.carousel {
-    min-height: 300px;
-    padding: 2rem 3rem 3rem 3rem;
-}
-
-.carousel-inner {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.carousel-item h6 {
+.member-information {
+    position: absolute;
     color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 0px;
+    bottom: 10px;
+    left: 20px;
+    -moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
-.carousel-item p {
-    font-size: 1.6rem;
-    font-weight: 200;
-    color: #f5f5f5;
+.member-information:hover {
+    -moz-transform: translate(0, -15px);
+	-webkit-transform: translate(0, -15px);
+	transform: translate(0, -15px);
 }
 
-.carousel-item small {
-    font-weight: 200;
-    color: #999999;
+.member-information h4 {
+    font-size: 18px;
+    line-height: .9px;
 }
 
-.carousel-indicators li {
-    background-color: #f5f5f5;
-    width: 15px;
-    height: 15px;
-    border: 0px;
-    border-radius: 50px;
-    margin: 0 .4rem 0 .4rem;
+.member-information p {
+    color: rgba(256, 256, 256, .7)
 }
 
-.carousel-indicators .active {
-    background-color: #999999;
+.member-information i {
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 10px;
 }
 
-.profile-picture {
-    max-width: 110px;
-    vertical-align: middle;
-}
-
-.rounded {
-    border-radius: 10rem !important;
-}
-
-.quote-icon {
-    font-size: 3rem;
-    color: #f5f5f5;
-}
-
+/*////////////////////////////
+  Pricing
+///////////////////////////*/
 
 .pricing-container {
     background-color: #ffffff;
@@ -279,14 +240,17 @@ blockquote {
     padding: 30px;
 }
 
-.pricing-footer h6 {
-    font-size: 20px;
+.pricing-footer h3 {
+    line-height: 1.2;
 }
 
-.pricing-footer span {
-    font-size: 12px;
+.pricing-footer small {
     color: #7f7f7f;
 }
+
+/*////////////////////////////
+  Contact
+///////////////////////////*/
 
 #contact {
     border-bottom: 1px solid rgba(0,0,0,.1);
@@ -299,7 +263,8 @@ blockquote {
 }
 
 #contact p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .form-control {
@@ -317,6 +282,10 @@ blockquote {
     box-shadow: none;
 }
 
+/*////////////////////////////
+  Footer
+///////////////////////////*/
+
 footer {
     padding: 80px 0px;
     color: #111111;
@@ -328,6 +297,10 @@ footer h6 {
     -moz-transition: all 0.8s;
 	-webkit-transition: all 0.8s;
     transition: all 0.8s;
+}
+
+footer p {
+    color: #7f7f7f;
 }
 
 footer i {
@@ -348,6 +321,10 @@ footer a h6:hover {
 	transform: translate(0, -5px)
 }
 
+/*////////////////////////////
+  Copyright
+///////////////////////////*/
+
 #copyright {
     padding: 20px 0;
 }
@@ -367,10 +344,15 @@ footer a h6:hover {
 ///////////////////////////*/
 
 @media (max-width: 575.98px) { 
-    .carousel-item p {
-        font-size: 1.1rem;
-        font-weight: 200;
+    .btn {
+        width: 100%;
+        margin: 5px 0;
     }
+
+    .navbar .primary-btn, .navbar .secondary-btn {
+        margin: 5px 0;
+    }
+
     .footer-btn {
         margin-bottom: 30px;
         border-bottom: 1px solid rgba(0,0,0,.1);
