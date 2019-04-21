@@ -16,11 +16,11 @@ Version 1.0.0
 <ul>
   <li>Ionic Icons (https://ionicons.com/)</li>
   <li>House 1 image by <a href="https://unsplash.com/@sphericity">Étienne Beauregard-Riverin</a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>Person one by <a href="https://unsplash.com/@jesseroberts">Jesse Roberts</a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Person one by <a href="https://unsplash.com/@michaeldam">Michael Dam</a> from <a href="https://unsplash.com/">Unsplash</a></li>
   <li>Person two by <a href="https://unsplash.com/@flopt">Flo Pappert
 </a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>Person 3 by <a href="https://unsplash.com/@averyklein">avery klein
-    </a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Person 3 by <a href="https://unsplash.com/@iiced">
+Hichem Dahmani</a> from <a href="https://unsplash.com/">Unsplash</a></li>
   <li>Google Font <a href="https://fonts.google.com/specimen/Roboto+Mono">Roboto Mono</a></li>
 </li>
 
