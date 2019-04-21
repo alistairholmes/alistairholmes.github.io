@@ -12,6 +12,18 @@ Version 1.0.0
   <li>Clone the repo: git clone https://github.com/diegovr7/software-company-template.git</li>
  </ul>
  
+ # External Resources
+<ul>
+  <li>Ionic Icons (https://ionicons.com/)</li>
+  <li>House 1 image by <a href="https://unsplash.com/@sphericity">Étienne Beauregard-Riverin</a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Person one by <a href="https://unsplash.com/@jesseroberts">Jesse Roberts</a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Person two by <a href="https://unsplash.com/@flopt">Flo Pappert
+</a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Person 3 by <a href="https://unsplash.com/@averyklein">avery klein
+    </a> from <a href="https://unsplash.com/">Unsplash</a></li>
+  <li>Google Font <a href="https://fonts.google.com/specimen/Roboto+Mono">Roboto Mono</a></li>
+</li>
+
  # Bugs and Issues
 Something is wrong with the theme? Let me know. I’ll help you out and fix the bug as soon as possible. Open a new issue here on GitHub, leave a comment on the template overview page at <a href="https://themesbootstrap.com.mx/templates/software-company-template.html">Themes Bootstrap</a> or send me an email to <a href="contact@themesbootstrap.com.mx">contact@themesbootstrap.com.mx</a>.
 
