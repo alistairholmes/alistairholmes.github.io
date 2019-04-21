@@ -2,12 +2,19 @@
 
     Themes Bootstrap - Software Company Template v1.0.0 (https://themesbootstrap.com.mx/templates/software-company-template.html)
     Copyright 2019 Themes Bootstrap
-    Licensed under MIT (https://github.com/diegovr7/mobile-app/blob/master/LICENSE)
+    Licensed under MIT (https://github.com/diegovr7/software-company-template/blob/master/LICENSE)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+    -moz-transition: all 2s;
+	-webkit-transition: all 2s;
+    transition: all 2s;
 }
 
 body {
@@ -353,6 +360,10 @@ footer a h6:hover {
         margin: 5px 0;
     }
 
+    #hero img {
+        margin-top: 30px;
+    }
+
     .footer-btn {
         margin-bottom: 30px;
         border-bottom: 1px solid rgba(0,0,0,.1);
@@ -372,13 +383,35 @@ footer a h6:hover {
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 768px) { 
+    #hero img {
+        margin-top: 30px;
+    }
 
+    .member-information h4 {
+        font-size: 14px;
+    }
+
+    .member-information p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .member-information i {
+        font-size: 18px;
+    }
+
+    .member-information ul {
+        margin-bottom: 0px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 769px) and (max-width: 991.98px) { 
     .pricing-header, .pricing-body, .pricing-footer {
         padding: 20px;
+    }
+    #hero img {
+        margin-top: 30px;
     }
 }
 
