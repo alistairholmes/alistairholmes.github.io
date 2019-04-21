@@ -8,8 +8,8 @@ Version 1.0.0
 
 # Download Options
 <ul>
-  <li><a href="https://themesbootstrap.com.mx/templates/real-estate-template/index.html">Dowload latest version on Themes Bootstrap</a></li>
-  <li>Clone the repo: git clone https://github.com/diegovr7/real-estate.git</li>
+  <li><a href="https://themesbootstrap.com.mx/templates/software-company-template/index.html">Dowload latest version on Themes Bootstrap</a></li>
+  <li>Clone the repo: git clone https://github.com/diegovr7/software-company-template.git</li>
  </ul>
  
  # Bugs and Issues
